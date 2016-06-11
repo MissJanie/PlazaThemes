@@ -72,8 +72,8 @@ body {
 	color: color;
 }
 
-/*Ew. No profile images*/
-img[src^="http://3dsplaza.com/profile_pics/"] {
+/*Ew. No profile images and ads*/
+img[src^="http://3dsplaza.com/profile_pics/"], img[src^="http://www.projectwonderful.com"], a[href^="http://www.projectwonderful.com"]  {
     display: none;
 }
 
