@@ -59,10 +59,6 @@ img[src^="http://3dsplaza.com/profile_pics/"] {
     display: none;
 }
 
-span[style~=blue] {
-	display: none;
-}
-
 #total_new_pms:before {
 	content: 'ヽ(=^･ω･^=)丿 '
 }
