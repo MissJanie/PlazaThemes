@@ -55,7 +55,7 @@ body {
 	color: white;
 }
 
-img[src^="http://3dsplaza.com/profile_pics/"] {
+img[src^="http://3dsplaza.com/profile_pics/"], img[src^="http://www.projectwonderful.com"], a[href^="http://www.projectwonderful.com"]  {
     display: none;
 }
 
