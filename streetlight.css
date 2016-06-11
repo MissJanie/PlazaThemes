@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+
+.friend_links:after {
+	content: ' is a qtπ';
+}
+
+* {
+	font-family: 'Architects Daughter';
+	color: white;
+}
+
+.content {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+body {
+	background-image: url('http://missjanieboo.cf/imgs/000000.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 101%;
+}
+
+.nav {
+	display: none;
+}
+
+.loginbar {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	background-color: transparent;
+	border-color: transparent;
+	color: white;
+}
+
+.loginbar_wrapper {
+    position: fixed !important;
+    top: auto !important;
+    bottom: 5px !important;
+    left: auto !important;
+    right: 5px !important;
+    z-index: 10;
+}
+
+#header, .share_buttons, .titlebox, hr, .signature, .posted, .copyright {
+	display: none;
+}
+
+.friends_spoiler_full, .friends_spoiler_if, .post_comment, .commentbox_2, .commentbox_1, textarea, input {
+	background-color: transparent !important;
+	border-color: transparent !important;
+	text-align: center;
+	color: white;
+}
+
+img[src^="http://3dsplaza.com/profile_pics/"] {
+    display: none;
+}
+
+span[style~=blue] {
+	display: none;
+}
+
+#total_new_pms:before {
+	content: 'ヽ(=^･ω･^=)丿 '
+}
