@@ -1,0 +1,84 @@
+/**
+ * TEMPLATE FOR PLAZATHEMES
+ * @name TEMPLATE
+ * @tags template,hidden
+ * @creator Jane Rozac
+ */
+
+/*Import font*/
+@import url(https://fonts.googleapis.com/css?family=font);
+
+/*Friends message*/
+.friend_links:after {
+	content: 'text';
+}
+
+/*Font and color*/
+* {
+	font-family: 'font';
+	color: color;
+}
+
+/*Make it look nice */
+.content {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+/*Background. Fixed for 16:10 and 16:9 monitors.*/
+body {
+	background-image: url('url');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 101%;
+}
+
+/*Cleanup*/
+.nav {
+	display: none;
+}
+
+/*Fun!*/
+.loginbar {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	background-color: transparent;
+	border-color: transparent;
+	color: white;
+}
+
+/*Niceness*/
+.loginbar_wrapper {
+    position: fixed !important;
+    top: auto !important;
+    bottom: 5px !important;
+    left: auto !important;
+    right: 5px !important;
+    z-index: 10;
+}
+
+/*Cleanup again*/
+#header, .share_buttons, .titlebox, hr, .signature, .posted, .copyright {
+	display: none;
+}
+
+/*Remove extra stuff*/
+.friends_spoiler_full, .friends_spoiler_if, .post_comment, .commentbox_2, .commentbox_1, textarea, input {
+	background-color: transparent !important;
+	border-color: transparent !important;
+	text-align: center;
+	color: color;
+}
+
+/*Ew. No profile images*/
+img[src^="http://3dsplaza.com/profile_pics/"] {
+    display: none;
+}
+
+
+/*By Jane*/
+#total_new_pms:before {
+	content: 'ヽ(=^･ω･^=)丿 ' /*Watermark*/
+}
