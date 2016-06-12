@@ -1,0 +1,84 @@
+/**
+ * TEMPLATE FOR PLAZATHEMES
+ * @name TEMPLATE
+ * @tags template,hidden
+ * @creator Jane Rozac
+ */
+
+/*Import font*/
+@import url(https://fonts.googleapis.com/css?family=Comic+Sans+MS);
+
+/*Friends message*/
+.friend_links:before {
+	content: '>tfw no qtπ ';
+}
+
+/*Font and color*/
+* {
+	font-family: 'Comic Sans MS';
+	color: navy;
+}
+
+/*Make it look nice */
+.content {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+/*Background. Fixed for 16:10 and 16:9 monitors.*/
+body {
+	background-image: url('http://science-all.com/images/wallpapers/adventure-time-pictures/adventure-time-pictures-7.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 101%;
+}
+
+/*Cleanup*/
+.nav {
+	display: none;
+}
+
+/*Fun!*/
+.loginbar {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	background-color: transparent;
+	border-color: transparent;
+	color: navy;
+}
+
+/*Niceness*/
+.loginbar_wrapper {
+    position: fixed !important;
+    top: auto !important;
+    bottom: 5px !important;
+    left: auto !important;
+    right: 5px !important;
+    z-index: 10;
+}
+
+/*Cleanup again*/
+#header, .share_buttons, .titlebox, hr, .signature, .posted, .copyright {
+	display: none;
+}
+
+/*Remove extra stuff*/
+.friends_spoiler_full, .friends_spoiler_if, .post_comment, .commentbox_2, .commentbox_1, textarea, input {
+	background-color: transparent !important;
+	border-color: transparent !important;
+	text-align: center;
+	color: navy;
+}
+
+/*Ew. No profile images and ads*/
+img[src^="http://3dsplaza.com/profile_pics/"], img[src^="http://www.projectwonderful.com"], a[href^="http://www.projectwonderful.com"]  {
+    display: none;
+}
+
+
+/*By Jane*/
+#total_new_pms:before {
+	content: 'ヽ(=^･ω･^=)丿 ' /*Watermark*/
+}
